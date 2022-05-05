@@ -1,0 +1,385 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header
+        {
+           background-image: url(bg1.jpg);
+           -webkit-background-size:cover;
+           background-size:cover;
+           background-repeat: no-repeat;
+           background-position: center center;
+           height:100vh;
+         }
+         
+        .navbar-brand {
+            padding-top: 50px;
+            padding-left: 100px;
+            display: flex;
+            text-decoration: none;
+            font-size: 28px;
+            color: #fff;
+        }
+        nav ul{
+            display: flex;
+            justify-content:flex-end;
+            align-items: center;
+        }
+        nav ul li {
+            display: inline-block;
+            padding: 10px;
+         }
+         nav ul li a {
+             text-decoration: none;
+             font-size: 28px;
+             color: rgb(253, 248, 248);
+         }
+         .web {
+            width: 400px;
+            height: 250px;
+            margin-top: 100px;
+            padding-top:50px;
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius:8px;
+            background-color: #fff;
+            filter: opacity(80%);
+            color: #fff;
+         }
+         .h1{
+            font-family: 'Dancing Script', cursive;
+            color:rgb(0, 0, 0);
+            padding: 10px;
+         }
+         .h2{
+             padding: 10px;
+             color: rgb(77, 12, 12);
+         }
+         button{
+             width:120px;
+             height:30px;
+             padding:10px;
+             border:1px solid black;
+             border-radius:8px;
+             font-size: 15px;
+             color: black;
+         }
+         .b1{
+             background-color: rgb(15, 112, 104);
+         }
+         .slide2{ 
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+            margin-left:230px;
+            position: relative;
+           
+         }
+         .s2{
+             width: 500px;
+             height: 300px;
+             padding:50px;
+         }
+         .info{
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 250px;
+            padding:50px;
+         }
+         .new{
+            background-color:rgb(199, 199, 221);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 30px;
+         }
+         .new_tasks,.new_spice,.new_dishes
+         {
+             width: 400px;
+             height: 300px;
+             padding: 50px;
+             margin-top:100px;
+             margin-left: 70px;
+         }
+          /* Indian On your plats  */
+        .background{
+            background-image: url(bg2.jpg);
+            -webkit-background-size:cover;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height:100vh;
+            
+        }
+        .Food_item{
+   
+            padding-top:50px;
+            text-align: center;
+            background-color: #fff;
+            filter: opacity(90%);
+            color: rgba(11, 3, 3, 0.968);
+         }
+         row{ 
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            position: relative;
+           
+         }
+         .part-1
+         {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            margin-left:150px;
+            position: relative;
+             /* margin-left: px; */
+         }
+         .part-2
+         {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            margin-left:150px;
+            position: relative;
+             /* margin-left: px; */
+         }
+         .images{
+             width: 100px;
+             height: 100px;
+             padding:10px;
+             /* border-radius: 50%; */
+         }
+         .items{
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 250px;
+            padding:10px;
+         }
+       
+        
+      
+
+ .traditional{
+    background-color: rgb(190, 188, 188);
+    padding: 50px;
+ }
+  div ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+ }
+.nav1 a 
+ {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(31, 29, 29);
+ }
+
+
+ /* new menu1 */
+ .bg3{
+    background-image: url(bg1.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
+ }
+ .menu{
+   
+    padding-top:50px;
+    text-align: center;
+    background-color: #fff;
+    filter: opacity(90%);
+    color: rgba(11, 3, 3, 0.968);
+ }
+ row{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+   
+ }
+ .discover-1
+ {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-left:150px;
+    position: relative;
+ }
+ .discover-2
+ {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-left:150px;
+    position: relative;
+     /* margin-left: px; */
+ }
+ .img{
+     width: 100px;
+     height: 100px;
+     padding:10px;
+     border-radius: 50%;
+ }
+ .food-menu{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    padding:10px;
+ }
+
+ /* booking */
+ .book{
+    background-color: rgb(15, 112, 104);
+ }
+ label{
+     font-size: 25px;
+     padding: 20px;
+     margin:10px;
+ }
+ select{
+     width: 250px;
+     height: 50px;
+     font-size: 25px;
+     border-radius:8px;
+ }
+ input{
+     width: 250px;
+     height: 30px;
+     padding: 20px;
+     margin:10px;
+     font-size:25px;
+     border-radius:8px;
+     color: #000
+ }
+ .book-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding: 30px;
+    margin-left:30px;
+    position: relative;
+ }
+ .book-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding: 50px;
+    margin-left:150px;
+    position: relative;
+ }
+  .btn{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    margin:20px;
+    font-size:25px;
+    border-radius:8px;
+    color: #000
+  }
+  /* background 4 */
+  
+ .bg4{
+    background-image: url(bg4.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter:opacity(50%);
+    height:100vh;
+ }
+ /* new menu2 */
+ .new-menu{
+     width: 100%;
+     background: rgb(66, 65, 65);
+     min-height:100vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     line-height:1.5;
+ }
+ a{
+     text-decoration: none;
+ }
+ .discover2{
+     width: 1000px;
+     margin:50px auto 0;
+     display: table;
+     box-sizing: border-box;
+ }
+ .row{
+    margin:20px 0;
+ }
+ .card{
+    background: #ccc; 
+    display:table-cell;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-left:20px solid rgb(66, 65, 65);
+ }
+
+ @media(max-width:800px) {
+     .discover{
+         margin:0;
+         padding:10px;
+         width:100%;
+     }
+     .card{
+         width:100%;
+         display:block;
+         margin: 20px 0 ;
+         border: none;
+         box-sizing: border-box;
+     }
+     .row{
+         margin: 0;
+     }
+ }
+ /* footer */
+ .footer1{
+    background-color: rgb(15, 112, 104);
+    padding: 50px;
+    font-size: 20px;
+    color: #fff;
+ }
+
+ /* footer 2 */
+
+ footer{
+     position: relative;
+     width: 100%;
+     height: auto;
+     padding:50px 100px;
+     background-color: rgb(135, 131, 131);
+ }
+ footer .footer2{
+     width: 100%;
+     display: grid;
+     grid-template-columns: 3fr 1fr 1fr 1fr;
+     grid-gap:20px ;
+ }
+ 
